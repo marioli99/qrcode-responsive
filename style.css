@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:'Outfit';
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor1:hsl(0, 0%, 100%);
+    --cor2:hsl(212, 45%, 89%);
+    --cor3:hsl(220, 15%, 55%);
+    --cor4:hsl(218, 44%, 22%);
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-outfit: 'Outfit', cursive;
+}
+html{
+    font-size: 25px;
+}
+body{
+    background-color:var(--cor2);
+    margin-top: 5%;
+}
+.container{
+    width: 356px;
+    height: 550px;
+    background-color: var(--cor1);
+    background-size: cover;
+    margin: auto;
+    border-radius: 5%;
+}
+
+#paragrafo{
+    font-size: 0.65rem;
+    font-weight: 400;
+    font-family: var(--fonte-outfit);
+    text-align: center;
+    padding: 2% 8% 15% 8% ;
+    color: var(--cor3);
+}
+
+#titulo{
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: var(--fonte-outfit);
+    text-align: center;
+    padding: 2% 8% 2% 8% ;
+    color: var(--cor4);
+}
+
+#img{
+    text-align: center;
+    padding: 4%;
+    
+}
+
+#img > img{
+    width: 330px;
+    height: 330px;
+    border-radius:5%;
+    
+}
+
+.attribution > p {
+    font-size: 0.85rem;
+    padding: 5%;
+}
